@@ -1,0 +1,96 @@
+body{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+h1, h2{
+    color: #111;
+}
+
+
+.top-bar{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+
+.container{
+    max-width: 888px;
+    margin:auto /* para centralizar o container */;
+    padding: 30px;
+
+}
+
+
+.headline{
+    font-size: 56px;
+    line-height: 64px; /* Normalmente possue p tamanho da font + 8 px espaçamento entre as linhas*/;
+
+}
+
+.subtitle{
+    font-weight: 400;/* Peso da fonte*/
+    font-size: 20px;
+
+}
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.social-icons{
+
+    margin-top: 10px;
+}
+
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+    
+}
+
+.content{
+    max-width: 648px;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.cta{
+   font-size: 20px;
+   margin: 30px 0;
+    
+}
+
+figure{
+    padding: 0;
+    margin:40px 0;
+    font-size: 12px;    
+}
+
+/* Selecionar img dentro de figure, seu elemento pai */
+figure>img{
+    width: 100%;/* A ficará com a mesma largura do elemento pai  */
+}
+
+.footer{
+    background-color: #333;
+    height: 100px;
+}
